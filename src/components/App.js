@@ -15,7 +15,7 @@ class App extends Component {
           <div className="app">
             <div className="header">
               <Link to = "/">
-                <h1>Piasintein Vocabul&auml;ri</h1>
+                <h1>Vocabul&auml;ri Piasintein</h1>
                </Link>
               <input type="text" placeholder="Ricerca" onChange={e => this.setState({filter: e.target.value})}></input>
             </div>
