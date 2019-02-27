@@ -1,0 +1,32 @@
+.SearchPage {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.suggestionList {
+	list-style: none;
+}
+
+.suggestionList a {
+	color: black;
+	text-decoration: none;
+}
+
+.suggestion {
+	display: block;
+	width: 80%;
+	background-color: #eee;
+	margin: 0 auto;
+	/* height: 50px; */
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.suggestion p {
+	vertical-align: middle;
+	margin: 0;
+	padding: 20px 0 20px 10px;
+}
